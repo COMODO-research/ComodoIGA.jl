@@ -1,0 +1,13 @@
+name = "ComodoIGA"
+uuid = "2f122ab6-0216-4768-8a9b-fa6574907006"
+authors = ["Aminofa70 <alibakhshiamin@yahoo.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
