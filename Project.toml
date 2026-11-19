@@ -1,9 +1,21 @@
 name = "ComodoIGA"
 uuid = "2f122ab6-0216-4768-8a9b-fa6574907006"
-authors = ["Aminofa70 <alibakhshiamin@yahoo.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["Aminofa70 <alibakhshiamin@yahoo.com> and contributors"]
+
+[deps]
+Comodo = "59095408-2761-4f7a-bdc2-044e78630271"
+Ferrite = "c061ca5d-56c9-439f-9c0e-210fe06d3992"
+FerriteGismo = "a548586d-644c-43c2-b402-969e06ddf6f5"
+FerriteIGA = "e7b8d123-e02a-40ba-ad18-d3943ed54f1c"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 
 [compat]
+Comodo = "1.0.3"
+Ferrite = "1.7.0"
+FerriteGismo = "0.7.1"
+FerriteIGA = "1.0.0"
+GLMakie = "0.13.17"
 julia = "1.10.10"
 
 [extras]
